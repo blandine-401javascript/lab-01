@@ -7,8 +7,7 @@
 ### Links and Resources
 
 - [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
-- [back-end server url](http://xyz.com) (when applicable)
+
 - [front-end application](http://xyz.com) (when applicable)
 
 ### Setup
@@ -24,9 +23,9 @@
 - How do you run tests?
   - run npm test: to see input and notes test pass
 - Any tests of note?
-  - yes ()
+  - yes 
 - Describe any tests that you did not complete, skipped, etc
-  - I did not complete note test yet, I am getting an error that "execute is not a function"
+  
 
 #### UML
 

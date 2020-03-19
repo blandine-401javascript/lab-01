@@ -1,7 +1,7 @@
 'use strict';
 
 
-const Notes = require('../lib/input.js');
+const Notes = require('../lib/notes.js');
 
 jest.spyOn(global.console, 'log');
 
