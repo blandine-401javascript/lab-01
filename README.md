@@ -1,8 +1,8 @@
-# LAB - Class xx
+# LAB 01
 
-## Project Name
+## pratice of input and note test
 
-### Author: Student/Group Name
+### Author: Blandine Dasilveira
 
 ### Links and Resources
 
@@ -13,24 +13,20 @@
 
 ### Setup
 
-#### `.env` requirements (where applicable)
+#### `.env` requirements
 
-i.e.
 
-- `PORT` - Port Number
-- `MONGODB_URI` - URL to the running mongo instance/db
+#### Tets
 
-#### How to initialize/run your application (where applicable)
+* Units test: 'npm test'
 
-- e.g. `npm start`
-
-#### How to use your library (where applicable)
-
-#### Tests
 
 - How do you run tests?
+  - run npm test: to see input and notes test pass
 - Any tests of note?
+  - yes ()
 - Describe any tests that you did not complete, skipped, etc
+  - I did not complete note test yet, I am getting an error that "execute is not a function"
 
 #### UML
 
