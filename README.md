@@ -6,9 +6,9 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission PR](https://github.com/blandine-401javascript/lab-01/pulls)
 
-- [front-end application](http://xyz.com) (when applicable)
+- [front-end application](https://blandine-401-lab-01.herokuapp.com/)
 
 ### Setup
 
@@ -22,11 +22,14 @@
 
 - How do you run tests?
   - run npm test: to see input and notes test pass
+
 - Any tests of note?
   - yes 
+
 - Describe any tests that you did not complete, skipped, etc
+  - none
+
+  
   
 
-#### UML
 
-Link to an image of the UML for your application and response to events
