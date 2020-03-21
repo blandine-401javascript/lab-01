@@ -34,13 +34,21 @@ describe('Input Module', () => {
   // test if valid() will accept a properly formed object
   it('respects a good formed input', () => {
     const options = new Input();
-    expect(options.valid()).toBeTruthy();
+    expect(options.validate()).toBeTruthy();
   });
 
-  // test if valid() will reject an improperly formed object
+  // test if valid() will reject an improperly formed object (missing action)
   it('rejects an improperly formed input', () => {
     let options = new Input();
-    options.command = {};
-    expect(options.valid()).toBeFalsy();
+    options.command = {p: 'good'};
+    expect(options.validate()).toBeFalsy();
+  });
+
+  // test if valid() will reject an improperly formed object (not an object)
+  it('rejects an improperly formed input', () => {
+    let options = new Input();
+    options.command = 'good';
+    expect(options.validate()).toBeFalsy();
   });
 });
+

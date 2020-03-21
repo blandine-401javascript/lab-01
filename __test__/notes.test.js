@@ -13,7 +13,7 @@ describe('Notes module', () => {
     const badTest = { command: {'x': 'bad'} };
     const notes = new Notes(badTest);
     notes.execute();
-    expect(console.log).not.toHaveBeenCalled;
+    expect(console.log).not.toHaveBeenCalled();
   });
 
   // tests if valid input with action add is used, that the add() function gives expected results
