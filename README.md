@@ -63,6 +63,38 @@
 - Describe any tests that you did not complete, skipped, etc
   - none
   
+
+
+# LAB 03: Data Modeling & NoSQL Databases, mongoDB and mongoose
+
+## Use of mongoBD and mongosse to add, list and delete note
+
+### Author: Blandine Dasilveira
+
+### Links and Resources
+
+- [submission PR]()
+
+- [front-end application](https://blandine-401-lab-01.herokuapp.com/)
+
+### Setup
+
+#### `.env` requirements
+
+
+#### Tets
+
+* Units test: 'use the mongoBD data base to add, list and delete note'
+
+
+- How do you run tests?
+  - 
+
+- Any tests of note?
+  - yes 
+
+- Describe any tests that you did not complete, skipped, etc
+  - none
   
 
 

@@ -11,6 +11,7 @@
     "express": "^4.17.1",
     "jest": "^25.1.0",
     "minimist": "^1.2.5",
+    "mongoose": "^5.9.6",
     "node.js": "^0.0.1-security"
   },
   "devDependencies": {},

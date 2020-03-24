@@ -1,11 +1,10 @@
 'use strict';
 
 console.log('Never Give Up');
-/*
-- Requires the library files you will be writing (input, notes)
-- Instantiates an “Input” parser
-- Sends properly parsed input to the Notes library for display
-*/
+
+
+const mongoose = require('mongoose');
+const dbURL = 'mongodb://localhost:27017/app';
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
 
@@ -19,6 +18,9 @@ const Notes = require('./lib/notes.js');
 
 const input = new Input();
 const notes = new Notes(input);
+
+// connect to Mongoose
+mongoose.connect(dbURL, { useNewUrlParser: true,useUnifiedTopology: true});
 
 input.valid() ? notes.execute() : help();
 
