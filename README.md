@@ -73,7 +73,7 @@
 
 ### Links and Resources
 
-- [submission PR]()
+- [submission PR](https://github.com/blandine-401javascript/lab-01/tree/lab03)
 
 - [front-end application](https://blandine-401-lab-01.herokuapp.com/)
 
