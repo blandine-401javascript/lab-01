@@ -3,8 +3,8 @@
 const mongoose = require('mongoose');
 
 const notesSchema = mongoose.Schema({
-  entry: {type:String, required: true},
-  category: {type:String, required: true},
+  text: {type:String, required: true},
+  category: {type:String, required: false},
 });
 
 const notesModel = mongoose.model('notes', notesSchema);

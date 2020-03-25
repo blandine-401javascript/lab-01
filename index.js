@@ -4,7 +4,7 @@ console.log('Never Give Up');
 
 
 const mongoose = require('mongoose');
-const dbURL = 'mongodb://localhost:27017/app';
+const dbURL = 'mongodb+srv://silan:020686da@cluster-class3-ol9vd.mongodb.net/app';
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
 
