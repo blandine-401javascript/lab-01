@@ -98,3 +98,34 @@
   
 
 
+# LAB 04: Advanced Mongo/Mongoose
+
+## Use of mongoBD and mongosse to add, list and delete note
+
+### Author: Blandine Dasilveira
+
+### Links and Resources
+
+- [submission PR](https://github.com/blandine-401javascript/lab-01/tree/lab004)
+
+- [mpm]()
+
+### Setup
+
+#### `.env` requirements
+
+
+#### Tets
+
+* Units test: 'use the mongoBD data base to add, list and delete note'
+
+
+- How do you run tests?
+  - 
+
+- Any tests of note?
+  - yes 
+
+- Describe any tests that you did not complete, skipped, etc
+  - none
+  
