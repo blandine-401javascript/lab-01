@@ -1,0 +1,35 @@
+{
+  "name": "lab-01",
+  "version": "1.0.0",
+  "description": "## Project Name",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.6",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blandine-401javascript/lab-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blandine-401javascript/lab-01/issues"
+  },
+  "homepage": "https://github.com/blandine-401javascript/lab-01#readme"
+}
